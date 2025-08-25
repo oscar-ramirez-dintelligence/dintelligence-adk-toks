@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Streamlit: Run App",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/Users/oscarramirezanaya/Documents/proyectos/env/bin/streamlit",
+            "args": [
+                "run",
+                "app.py"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "VIRTUAL_ENV": "/Users/oscarramirezanaya/Documents/proyectos/env",
+                "PATH": "/Users/oscarramirezanaya/Documents/proyectos/env/bin:${env:PATH}",
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Depurador de Python: Archivo actual",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "VIRTUAL_ENV": "/Users/oscarramirezanaya/Documents/proyectos/env",
+                "PATH": "/Users/oscarramirezanaya/Documents/proyectos/env/bin:${env:PATH}"
+            }
+        }
+    ]
+}
