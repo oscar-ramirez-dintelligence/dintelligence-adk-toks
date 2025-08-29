@@ -1,0 +1,7 @@
+google-adk
+llama_index
+uvicorn
+python-dotenv
+google-cloud-aiplatform
+vertexai
+google-auth
